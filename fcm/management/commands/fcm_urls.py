@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
-from django.core.urlresolvers import reverse
+# from django.core.urlresolvers import reverse
 from fcm.views import DeviceViewSet
-
+from django.urls import reverse
 
 class Command(BaseCommand):
     help = "Show FCM urls"
