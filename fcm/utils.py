@@ -6,7 +6,7 @@ from django.utils.encoding import force_text
 from django.conf import settings
 from django.utils.module_loading import import_module
 
-DEFAULT_FCM_DEVICE_MODEL = 'fcm.Device'
+DEFAULT_FCM_DEVICE_MODEL = 'userapp.MyDevice'
 
 
 def get_device_model():
