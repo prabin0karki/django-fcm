@@ -14,8 +14,8 @@ class Command(BaseCommand):
         # TODO add proper url resolvers
         #register_url = reverse('devices', kwargs=url_kwargs)
         #unregister_url = reverse('devices', kwargs=url_kwargs)
-        register_url = 'fcm/v1/devices'
-        unregister_url = 'fcm/v1/devices/<pk>'
+        register_url = 'api/v1/devices'
+        unregister_url = 'api/v1/devices/<pk>'
         self.show_line()
         self.stdout.write("FCM urls:\n")
         self.stdout.write("* Register device\n    %s\n" % register_url)
